@@ -1,0 +1,157 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+    height: 40px;
+    width: 100em;
+    /* margin: -10px 0px 0px -10px; */
+}
+body{
+    background-color: #69c1ff;
+    overflow-x: hidden;
+}
+#text{
+    position: fixed;
+    top: 50%;
+    width: 100%;
+}
+#center{
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    top: 250px;
+}
+/* #center{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background-color: antiquewhite;
+    margin:auto;
+    
+} */
+#dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+
+#dropdown-content{
+    display: none; 
+    position: absolute;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    top: 38px;
+    margin-left: 5px;
+    padding: 10px 0px 10px 0px; 
+    
+}
+#dropdown-content button{
+    display: block;
+    border: none;
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0px 5px 15px;
+    color:black;
+    /* text-align: left; */
+    float: none;
+}
+#dropdown #dropdown-btn{
+    font-size: 15px;  
+    /* outline: none; */
+    /* color: white; */
+    /* background-color: inherit; */
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    padding: 14px 16px;
+    margin: 0;
+}
+#dropdown-btn{
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    width: 7%;
+    height: 40px;
+    text-align: left;
+    padding: 15px;
+}
+
+#dropdown-content button:hover, #dropdown-btn:hover, #side-tab >button:hover{
+    background-color: rgb(223, 222, 222);  
+}
+
+#side-tab{
+    display: none;
+    background-color: white;
+    border-radius: 7px;
+    width: 200px;
+    position: relative;
+    /* left: 160px; */
+    margin-top: 90px;
+    margin-left: 195px;
+    padding: 10px 0px 10px 0px;
+}
+#side-tab >button{
+    display: block;
+    border: none;
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    /* margin: 0px; no need as the border-radius for the first and the last tags are done implicitly*/ 
+    text-align: left;
+    padding: 5px 0px 5px 15px;
+    color:black;
+    /* text-align: left; */
+    float: none;
+}
+/* #first{
+    border-radius: 8px 8px 0px 0px;
+}
+#last{
+    border-radius: 0px 0px 8px 8px;
+} */
+#ab{
+    /* display: none; */
+    margin:auto;
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+#about-tab{
+    
+    /* background-color:aqua; */
+    color: black;
+    height: 90%;
+    position: relative;
+    top: 10px;
+    
+    /*position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    transform: translate(10em, 200px); */
+} 
+#about-tab button{
+    border: none;
+    background-color: white;
+    color: #1192fd;
+    font-weight: bold;
+    text-transform: capitalize;
+    transform: translate(60px, 130px);
+}
+#msg{
+    display: none;
+}
+
+
+form{
+    display: inline;
+
+}

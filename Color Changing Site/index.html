@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5acf7ad08e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+    <title>Color Change on demand</title>
+</head>
+<body id="full"> 
+   <header><nav>
+    <div id="dropdown"></div>
+    <button id="dropdown-btn" onclick= "return change()">Menu Demo</button>
+    <div id="dropdown-content">
+        <button class="my-button" id="a" onclick="change1()">About</button>
+        <button class="my-button" id="b" onclick="show()">Show Message &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;^S</button>
+        <button class="my-button" id="c" onclick="reset()">Reset Message &nbsp;&nbsp;&nbsp;&nbsp;Esc</button>
+        <button class="my-button" id="d" onclick="return disp()">Background Color &nbsp;&nbsp;<i class="fa-solid fa-caret-right"></i></button>
+        
+    </div>
+    
+   
+   </nav></header> 
+
+   <div id="side-tab">
+        <button class="my-button" value="#ff6980" id="one" onclick="changeCc(this.value)">Red Background &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;^ R</button>
+        <button class="my-button" value="#69ff8e" id="two" onclick="changeCc(this.value)">Green Background&nbsp;&nbsp;&nbsp;&nbsp;^ G</button>
+        <button class="my-button" value="#e9ff69" id="three" onclick="changeCc(this.value)">Yellow Background&nbsp;&nbsp;&nbsp;&nbsp;^ Y</button>
+   </div>
+
+   <center id="ab"><div id="about-tab">
+        <p>Menu Bar Sample</p>
+        <button>View Licences</button>
+        <button onclick="change2()">Close</button>
+     
+   </div></center>
+
+   <!-- <form onsubmit="return changeColor()"> -->
+   <!-- <label for="color">Choose a color:</label> -->
+
+   <!-- <select id="color" onselect="return changeColor()">
+    <option value="none" selected>Select a color</option>
+    <option value="#ff6980">Red</option>
+    <option value="#69ff8e">Green</option>
+    <option value="#e9ff69">Yellow</option>
+   </select> -->
+   <!-- <input type="submit" value="Confirm"> -->
+   
+   <div id="text"><center id="center"><h2 id="msg">"Talk Less, Smile More" - A. Burr</h2>
+        <h3 id="status">Last Selected: </h3>
+   </center></div>
+   <!-- <div id="center"><h2 id="msg">"Talk Less, Smile More" - A. Burr</h2>
+        <h3 id="status">Last Selected: </h3>
+   </div> -->
+    
+   
+</body>
+</html>
